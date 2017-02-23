@@ -1,0 +1,26 @@
+Metros
+==================================
+
+A method and instruction counter for Java.
+
+This program will count methods and branch instruction types for a given
+list of java classes.
+The classnames are given as command line parameters.
+
+The program yields CSV-output, a line for each class.
+The columns are:
+
+- Classname
+- Method count
+- Branch count
+- Branch instruction count
+- Public method count
+- Public concrete method count
+- Static method count
+- Static concrete method count
+- Static public method count
+- Static public concrete method count
+- Field count
+- Public field count
+
+
